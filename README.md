@@ -15,7 +15,7 @@ Import it to each file you use it in:
 
 ### Anime Validators
 
-![A gif demonstrating the Anime Validators.](./demo/anime_validator.gif)
+![A gif demonstrating the Anime Validators.](./demo/anime_validator.gif){:width="400px"}
 
 This wrapper is used to wrap around TextFormField if you need a animation to the TextFormField on event such as validation error.
 
