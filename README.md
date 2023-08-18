@@ -13,7 +13,7 @@ Import it to each file you use it in:
 
 ## Usage
 
-### Anime Validators
+### Anime Validator
 
 <img src="./demo/anime_validator.gif" alt="Anime Validators Demo" width="300" />
 
@@ -25,7 +25,33 @@ TextEditingController firstNameController = TextEditingController();
 AnimeValidator(
    enableAnimation: true,
    child: CustomTextFormField( 
-   controller: firstNameController,
-   hintTextVal: "First Name",
-)),
+     controller: firstNameController,
+     hintTextVal: "First Name",
+  )),
 ```
+
+### Glow Selector
+
+<img src="./demo/glow_selector.gif" alt="Glow Selector Demo " width="300" />
+
+This wrapper can be used to identify the selected TextFormField. Imagine if there are multiple TextFormFields it would be difficult to identify the selected field at one. But with this wrapper it will make easier to identify.
+
+``` dart
+FocusNode firstNameNode = FocusNode();
+
+GlowSelector(
+   borderRadius: 15,
+   enableFocusGlowing: true,
+   focusGlowColor: Colors.blueAccent,
+   focusNode: firstNameNode,
+   child: CustomTextFormField(
+     focusNode: firstNameNode,
+     hintTextVal: "First Name",
+   )),
+```
+
+### Glow Validator
+
+<img src="./demo/glow_validator.gif" alt="Glow Selector Demo " width="300" />
+
+This wrapper can be used to validate TextField based on the condition. For example you can set wrapper to glow if the text is empty on submit the form
