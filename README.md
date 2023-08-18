@@ -4,7 +4,7 @@ Animated wrappers which can used to wrap around TextFormField  to get some nice 
 
 In the `pubspec.yaml` of your flutter project, add the following dependency:
  ``` yaml dependencies:
- form_animate_wrap: ^0.0.1
+ form_animate_wrap: ^0.0.3
 ```
 Import it to each file you use it in:
  ``` dart
@@ -34,7 +34,7 @@ AnimeValidator(
 
 <img src="./demo/glow_selector.gif" alt="Glow Selector Demo " width="300" />
 
-This wrapper can be used to identify the selected TextFormField. Imagine if there are multiple TextFormFields it would be difficult to identify the selected field at one. But with this wrapper it will make easier to identify.
+This wrapper can be used to identify the selected TextFormField. Imagine if there are multiple TextFormFields it would be difficult to identify the selected field at once. But with this wrapper it will make easier to identify.
 
 ``` dart
 FocusNode firstNameNode = FocusNode();

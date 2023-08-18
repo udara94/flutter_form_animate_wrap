@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.3
 
-Animated wrappers which can used to wrap around text form fields to get some nice interactions 
+Add readme files and gifs 
