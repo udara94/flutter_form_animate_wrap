@@ -15,14 +15,16 @@ Import it to each file you use it in:
 
 ### Anime Validators
 
+![A gif demonstrating the Anime Validators.](./demo/anime_validator.gif)
+
 This wrapper is used to wrap around TextFormField if you need a animation to the TextFormField on event such as validation error.
 
 ``` dart
 TextEditingController firstNameController = TextEditingController();
 
 AnimeValidator(
-   enableAnimation: getValidity(firstNameController),
-   child: CustomTextFormField(
+   enableAnimation: true,
+   child: CustomTextFormField( 
    controller: firstNameController,
    hintTextVal: "First Name",
 )),
