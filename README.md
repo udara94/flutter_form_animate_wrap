@@ -1,6 +1,4 @@
-A Widget that wraps a TextFormField widget for the puspose of decorating it with a
-border and radiused corners that can be easily adjusted for TextFormFields that need
-to be placed against one another.
+Animated wrappers which can used to wrap around TextFormField  to get some nice interactions
 
 ![A gif demonstrating the radio group in action.](./demo/text_form_field_wrapper_demo.gif)
 
@@ -8,11 +6,11 @@ to be placed against one another.
 
 In the `pubspec.yaml` of your flutter project, add the following dependency:
  ``` yaml dependencies:
- text_form_field_wrapper: ^1.0.0
+ form_animate_wrap: ^1.0.0
 ```
 Import it to each file you use it in:
  ``` dart
- import 'package:text_form_field_wrapper/text_form_field_wrapper.dart';
+ import 'package:form_animate_wrap/form_animate_wrap.dart';
  ```
 
 ## Usage
