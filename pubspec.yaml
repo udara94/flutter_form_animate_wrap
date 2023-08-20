@@ -1,6 +1,6 @@
 name: form_animate_wrap
-description: A new Flutter package
-version: 0.0.6
+description: Animated wrappers which can used to wrap around TextFormField to get some nice interactions
+version: 0.0.7
 homepage: https://github.com/udara94/flutter_form_animate_wrap
 
 environment:

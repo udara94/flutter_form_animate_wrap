@@ -15,7 +15,7 @@ Import it to each file you use it in:
 
 ### Anime Validator
 
-<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/glow_selector.gif" alt="Radio Group Demo" width="300">
+<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/anime_validator.gif?raw=true" alt="Radio Group Demo" width="300">
 
 This wrapper is used to wrap around TextFormField if you need a animation to the TextFormField on event such as validation error.
 
@@ -32,7 +32,7 @@ AnimeValidator(
 
 ### Glow Selector
 
-<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/glow_selector.gif" alt="Radio Group Demo" width="300">
+<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/glow_selector.gif?raw=true" alt="Radio Group Demo" width="300">
 
 This wrapper can be used to identify the selected TextFormField. Imagine if there are multiple TextFormFields it would be difficult to identify the selected field at once. But with this wrapper it will make easier to identify.
 
@@ -52,7 +52,7 @@ GlowSelector(
 
 ### Glow Validator
 
-<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/glow_validator.gif" alt="Radio Group Demo" width="300">
+<img src="https://github.com/udara94/flutter_form_animate_wrap/blob/master/demo/glow_validator.gif?raw=true" alt="Radio Group Demo" width="300">
 
 This wrapper can be used to validate TextField based on the condition. For example you can set wrapper to glow if the text is empty on submit the form
 
